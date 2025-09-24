@@ -24,7 +24,7 @@ public class BuEni09 {
 
     besaranUang = uangSPP + uangGedung;
 
-    System.out.println(" Besaran uang = " +besaranUang);
+    System.out.println(" Besaran uang jajan  = " +besaranUang);
 
     }
     
