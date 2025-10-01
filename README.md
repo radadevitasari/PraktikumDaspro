@@ -25,6 +25,5 @@ Jika salah satunya tidak memenuhi, maka gagal.
 -Pemeriksaan Akhir (Validasi)
 Jika semua syarat di atas terpenuhi → mahasiswa dinyatakan memenuhi syarat (bisa lanjut ujian/pendaftaran).
 Jika salah satu syarat tidak terpenuhi → mahasiswa dinyatakan tidak memenuhi syarat.
-TUGAS 
-1. 
+
 
