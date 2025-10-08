@@ -18,5 +18,11 @@ public class CaseMethod1 {
         System.out.print("Nilai Tugas: "); double tugas1 = input.nextDouble();
         double akhir1 = (uts1*0.3) + (uas1*0.4) + (tugas1*0.3);
 
+        System.out.println("\nMata Kuliah 2: Struktur Data");
+        System.out.print("Nilai UTS: "); double uts2 = input.nextDouble();
+        System.out.print("Nilai UAS: "); double uas2 = input.nextDouble();
+        System.out.print("Nilai Tugas: "); double tugas2 = input.nextDouble();
+        double akhir2 = (uts2*0.3) + (uas2*0.4) + (tugas2*0.3);
+
     }
 }
