@@ -32,9 +32,31 @@ public class CaseMethod1 {
                 ? "LULUS SEMESTER"
                 : "TIDAK LULUS";
         System.out.println("Nama : " + nama);
-        System.out.println("NIM  : " + nim);        
+        System.out.println("NIM  : " + nim); 
 
+        String huruf1 = konversiHuruf(akhir1);
+        String huruf2 = konversiHuruf(akhir2);
 
+        System.out.println("\nMata Kuliah                UTS   UAS   Tugas   Nilai Akhir   Huruf   Status");
+        System.out.println("--------------------------------------------------------------------------");
+        System.out.printf("%-25s %-5.0f %-5.0f %-7.0f %-10.2f %-7s %-10s%n",
+                "Algoritma Pemrograman", uts1, uas1, tugas1, akhir1, huruf1 , status1);
+        System.out.printf("%-25s %-5.0f %-5.0f %-7.0f %-10.2f %-7s %-10s%n",
+                "Struktur Data", uts2, uas2, tugas2, akhir2, huruf2, status2);
+        System.out.printf("Rata-rata Nilai Akhir : %.2f%n", rata);
+        System.out.println("Status Semester       : " + statusSemester);
 
+        input.close();
+    }
+
+    public static String konversiHuruf(double n) {
+        if (n >= 80) return "A";
+        else if (n >= 73) return "B+";
+        else if (n >= 65) return "B";
+        else if (n >= 60) return "C+";
+        else if (n >= 50) return "C";
+        else if (n >= 39) return "D";
+        else return "E";
     }
 }
+
