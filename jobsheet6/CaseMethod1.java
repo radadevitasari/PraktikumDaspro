@@ -24,5 +24,17 @@ public class CaseMethod1 {
         System.out.print("Nilai Tugas: "); double tugas2 = input.nextDouble();
         double akhir2 = (uts2*0.3) + (uas2*0.4) + (tugas2*0.3);
 
+        System.out.println("=== HASIL PENILAIAN AKADEMIK===");
+        double rata = (akhir1 + akhir2) / 2;
+        String status1 = (akhir1 >= 60) ? "Lulus" : "Tidak";
+        String status2 = (akhir2 >= 60) ? "Lulus" : "Tidak";
+        String statusSemester = (akhir1 >= 60 && akhir2 >= 60 && rata >= 70)
+                ? "LULUS SEMESTER"
+                : "TIDAK LULUS";
+        System.out.println("Nama : " + nama);
+        System.out.println("NIM  : " + nim);        
+
+
+
     }
 }
